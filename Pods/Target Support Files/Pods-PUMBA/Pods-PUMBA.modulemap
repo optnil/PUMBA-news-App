@@ -1,0 +1,6 @@
+framework module Pods_PUMBA {
+  umbrella header "Pods-PUMBA-umbrella.h"
+
+  export *
+  module * { export * }
+}

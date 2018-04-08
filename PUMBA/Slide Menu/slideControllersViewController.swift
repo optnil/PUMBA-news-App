@@ -16,9 +16,9 @@ class slideControllersViewController: TabmanViewController, PageboyViewControlle
     lazy var viewControllerList: [UIViewController] = {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         
-        let vc1 = sb.instantiateViewController(withIdentifier: "news")
+        let vc1 = sb.instantiateViewController(withIdentifier: "sportsNews")
         let vc2 = sb.instantiateViewController(withIdentifier: "random")
-        let vc3 = sb.instantiateViewController(withIdentifier: "third")
+        let vc3 = sb.instantiateViewController(withIdentifier: "news")
         
         return [vc1,vc2, vc3]
     }()

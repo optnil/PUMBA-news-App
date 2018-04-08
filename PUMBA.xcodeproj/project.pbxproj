@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180AD6CE20788FE7009BC949 /* SportsNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD6CD20788FE7009BC949 /* SportsNewsViewController.swift */; };
+		180AD6D120789A9A009BC949 /* displayNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD6D020789A9A009BC949 /* displayNewsViewController.swift */; };
+		180AD6D42078DC29009BC949 /* randomNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD6D32078DC29009BC949 /* randomNewsViewController.swift */; };
+		18363966206F77DA0047DBB8 /* slideControllersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18363965206F77DA0047DBB8 /* slideControllersViewController.swift */; };
+		18363968206FB0DD0047DBB8 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18363967206FB0DD0047DBB8 /* menuViewController.swift */; };
 		1836E2852062A64700FBC712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E2842062A64700FBC712 /* AppDelegate.swift */; };
-		1836E2872062A64700FBC712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E2862062A64700FBC712 /* ViewController.swift */; };
+		1836E2872062A64700FBC712 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E2862062A64700FBC712 /* LoginViewController.swift */; };
 		1836E28A2062A64700FBC712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836E2882062A64700FBC712 /* Main.storyboard */; };
 		1836E28C2062A64700FBC712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1836E28B2062A64700FBC712 /* Assets.xcassets */; };
 		1836E28F2062A64700FBC712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836E28D2062A64700FBC712 /* LaunchScreen.storyboard */; };
 		1836E29A2062A64700FBC712 /* PUMBATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E2992062A64700FBC712 /* PUMBATests.swift */; };
 		1836E2A52062A64700FBC712 /* PUMBAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E2A42062A64700FBC712 /* PUMBAUITests.swift */; };
+		1836E2B32062D42100FBC712 /* randomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E2B22062D42100FBC712 /* randomTableViewCell.swift */; };
+		1850C084206603B600C892BA /* constantsHere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850C083206603B600C892BA /* constantsHere.swift */; };
+		1850C0862066061900C892BA /* navigateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850C0852066061900C892BA /* navigateViewController.swift */; };
+		1850C0882066E6DE00C892BA /* newsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850C0872066E6DE00C892BA /* newsViewController.swift */; };
+		18E6DA3A207549490010F5EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18E6DA39207549480010F5EF /* GoogleService-Info.plist */; };
+		674F1FBC3526639764DEC586 /* Pods_PUMBATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7803429928A7BAA03FCC56 /* Pods_PUMBATests.framework */; };
+		9C543A92D7372A44D32B4948 /* Pods_PUMBA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C439FDFE897AAFB6FBCE890 /* Pods_PUMBA.framework */; };
+		F14EA4E53D4004C7AE0AABD0 /* Pods_PUMBAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB19BBA63303FCF6B450150 /* Pods_PUMBAUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180AD6CD20788FE7009BC949 /* SportsNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsNewsViewController.swift; sourceTree = "<group>"; };
+		180AD6D020789A9A009BC949 /* displayNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayNewsViewController.swift; sourceTree = "<group>"; };
+		180AD6D32078DC29009BC949 /* randomNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomNewsViewController.swift; sourceTree = "<group>"; };
+		180AD6D52078E81D009BC949 /* PUMBA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PUMBA-Bridging-Header.h"; sourceTree = "<group>"; };
+		18363965206F77DA0047DBB8 /* slideControllersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideControllersViewController.swift; sourceTree = "<group>"; };
+		18363967206FB0DD0047DBB8 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		1836E2812062A64700FBC712 /* PUMBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUMBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836E2842062A64700FBC712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1836E2862062A64700FBC712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1836E2862062A64700FBC712 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1836E2892062A64700FBC712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1836E28B2062A64700FBC712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1836E28E2062A64700FBC712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +66,20 @@
 		1836E2A02062A64700FBC712 /* PUMBAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PUMBAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836E2A42062A64700FBC712 /* PUMBAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUMBAUITests.swift; sourceTree = "<group>"; };
 		1836E2A62062A64700FBC712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836E2B22062D42100FBC712 /* randomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomTableViewCell.swift; sourceTree = "<group>"; };
+		1850C083206603B600C892BA /* constantsHere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constantsHere.swift; sourceTree = "<group>"; };
+		1850C0852066061900C892BA /* navigateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigateViewController.swift; sourceTree = "<group>"; };
+		1850C0872066E6DE00C892BA /* newsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsViewController.swift; sourceTree = "<group>"; };
+		18E6DA39207549480010F5EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21AB389436818475C6D930A3 /* Pods-PUMBA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUMBA.release.xcconfig"; path = "Pods/Target Support Files/Pods-PUMBA/Pods-PUMBA.release.xcconfig"; sourceTree = "<group>"; };
+		3B7803429928A7BAA03FCC56 /* Pods_PUMBATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PUMBATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4168E1EFEDF8206D3036406D /* Pods-PUMBATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUMBATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PUMBATests/Pods-PUMBATests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C439FDFE897AAFB6FBCE890 /* Pods_PUMBA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PUMBA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9B5E2BA9BF3FF903875696 /* Pods-PUMBAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUMBAUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PUMBAUITests/Pods-PUMBAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6CF416A4ED711D05C413BD2 /* Pods-PUMBATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUMBATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PUMBATests/Pods-PUMBATests.release.xcconfig"; sourceTree = "<group>"; };
+		BAB19BBA63303FCF6B450150 /* Pods_PUMBAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PUMBAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9A734AD04324EDC0EBBAF4 /* Pods-PUMBAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUMBAUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PUMBAUITests/Pods-PUMBAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FEEF6B16B022DDD75C81798C /* Pods-PUMBA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUMBA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PUMBA/Pods-PUMBA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C543A92D7372A44D32B4948 /* Pods_PUMBA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674F1FBC3526639764DEC586 /* Pods_PUMBATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +103,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14EA4E53D4004C7AE0AABD0 /* Pods_PUMBAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180AD6CB20788EDF009BC949 /* Slide Menu */ = {
+			isa = PBXGroup;
+			children = (
+				18363967206FB0DD0047DBB8 /* menuViewController.swift */,
+				18363965206F77DA0047DBB8 /* slideControllersViewController.swift */,
+			);
+			path = "Slide Menu";
+			sourceTree = "<group>";
+		};
+		180AD6CC20788F79009BC949 /* News Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1850C0852066061900C892BA /* navigateViewController.swift */,
+				1836E2B22062D42100FBC712 /* randomTableViewCell.swift */,
+				1850C0872066E6DE00C892BA /* newsViewController.swift */,
+				180AD6CD20788FE7009BC949 /* SportsNewsViewController.swift */,
+				180AD6D32078DC29009BC949 /* randomNewsViewController.swift */,
+			);
+			path = "News Screens";
+			sourceTree = "<group>";
+		};
+		180AD6CF20789A37009BC949 /* Supporters */ = {
+			isa = PBXGroup;
+			children = (
+				1836E28B2062A64700FBC712 /* Assets.xcassets */,
+				1850C083206603B600C892BA /* constantsHere.swift */,
+			);
+			path = Supporters;
+			sourceTree = "<group>";
+		};
+		180AD6D220789AFD009BC949 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				1836E2842062A64700FBC712 /* AppDelegate.swift */,
+				1836E28D2062A64700FBC712 /* LaunchScreen.storyboard */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
 		1836E2782062A64700FBC712 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +156,8 @@
 				1836E2982062A64700FBC712 /* PUMBATests */,
 				1836E2A32062A64700FBC712 /* PUMBAUITests */,
 				1836E2822062A64700FBC712 /* Products */,
+				C0AC3832AFCC4A1C2B4D3C09 /* Pods */,
+				ECA613D646589452302F0E10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +174,16 @@
 		1836E2832062A64700FBC712 /* PUMBA */ = {
 			isa = PBXGroup;
 			children = (
-				1836E2842062A64700FBC712 /* AppDelegate.swift */,
-				1836E2862062A64700FBC712 /* ViewController.swift */,
+				180AD6CF20789A37009BC949 /* Supporters */,
+				180AD6CC20788F79009BC949 /* News Screens */,
+				180AD6CB20788EDF009BC949 /* Slide Menu */,
+				18E6DA3B20754F9A0010F5EF /* Start */,
+				180AD6D220789AFD009BC949 /* Rest */,
 				1836E2882062A64700FBC712 /* Main.storyboard */,
-				1836E28B2062A64700FBC712 /* Assets.xcassets */,
-				1836E28D2062A64700FBC712 /* LaunchScreen.storyboard */,
 				1836E2902062A64700FBC712 /* Info.plist */,
+				18E6DA39207549480010F5EF /* GoogleService-Info.plist */,
+				180AD6D020789A9A009BC949 /* displayNewsViewController.swift */,
+				180AD6D52078E81D009BC949 /* PUMBA-Bridging-Header.h */,
 			);
 			path = PUMBA;
 			sourceTree = "<group>";
@@ -125,6 +206,37 @@
 			path = PUMBAUITests;
 			sourceTree = "<group>";
 		};
+		18E6DA3B20754F9A0010F5EF /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				1836E2862062A64700FBC712 /* LoginViewController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		C0AC3832AFCC4A1C2B4D3C09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEEF6B16B022DDD75C81798C /* Pods-PUMBA.debug.xcconfig */,
+				21AB389436818475C6D930A3 /* Pods-PUMBA.release.xcconfig */,
+				4168E1EFEDF8206D3036406D /* Pods-PUMBATests.debug.xcconfig */,
+				B6CF416A4ED711D05C413BD2 /* Pods-PUMBATests.release.xcconfig */,
+				4F9B5E2BA9BF3FF903875696 /* Pods-PUMBAUITests.debug.xcconfig */,
+				ED9A734AD04324EDC0EBBAF4 /* Pods-PUMBAUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECA613D646589452302F0E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C439FDFE897AAFB6FBCE890 /* Pods_PUMBA.framework */,
+				3B7803429928A7BAA03FCC56 /* Pods_PUMBATests.framework */,
+				BAB19BBA63303FCF6B450150 /* Pods_PUMBAUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1836E2A92062A64700FBC712 /* Build configuration list for PBXNativeTarget "PUMBA" */;
 			buildPhases = (
+				7BE25CA6BCE6A45D0E141914 /* [CP] Check Pods Manifest.lock */,
 				1836E27D2062A64700FBC712 /* Sources */,
 				1836E27E2062A64700FBC712 /* Frameworks */,
 				1836E27F2062A64700FBC712 /* Resources */,
+				24AD82A7ED93BCA1473E9E86 /* [CP] Embed Pods Frameworks */,
+				7A2FEA52529CC97201B546F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1836E2AC2062A64700FBC712 /* Build configuration list for PBXNativeTarget "PUMBATests" */;
 			buildPhases = (
+				C0AEE10D7D1D6C8A02F08123 /* [CP] Check Pods Manifest.lock */,
 				1836E2912062A64700FBC712 /* Sources */,
 				1836E2922062A64700FBC712 /* Frameworks */,
 				1836E2932062A64700FBC712 /* Resources */,
+				9116449113905505125ECC35 /* [CP] Embed Pods Frameworks */,
+				77C827407B87470011BDF4F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1836E2AF2062A64700FBC712 /* Build configuration list for PBXNativeTarget "PUMBAUITests" */;
 			buildPhases = (
+				5857A2A347B9ABD4837D9DCB /* [CP] Check Pods Manifest.lock */,
 				1836E29C2062A64700FBC712 /* Sources */,
 				1836E29D2062A64700FBC712 /* Frameworks */,
 				1836E29E2062A64700FBC712 /* Resources */,
+				EEEC7D6E51C7A7B0A8AFF55A /* [CP] Embed Pods Frameworks */,
+				FB813FF9734E6373FBE2A4FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,11 +309,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Sonkar;
 				TargetAttributes = {
 					1836E2802062A64700FBC712 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					1836E2942062A64700FBC712 = {
@@ -233,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1836E28F2062A64700FBC712 /* LaunchScreen.storyboard in Resources */,
+				18E6DA3A207549490010F5EF /* GoogleService-Info.plist in Resources */,
 				1836E28C2062A64700FBC712 /* Assets.xcassets in Resources */,
 				1836E28A2062A64700FBC712 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +377,186 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24AD82A7ED93BCA1473E9E86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PUMBA/Pods-PUMBA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AutoInsetter/AutoInsetter.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Tabman/Tabman.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoInsetter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pageboy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tabman.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PUMBA/Pods-PUMBA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5857A2A347B9ABD4837D9DCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PUMBAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C827407B87470011BDF4F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PUMBATests/Pods-PUMBATests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2FEA52529CC97201B546F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PUMBA/Pods-PUMBA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE25CA6BCE6A45D0E141914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PUMBA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9116449113905505125ECC35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PUMBATests/Pods-PUMBATests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AEE10D7D1D6C8A02F08123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PUMBATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEEC7D6E51C7A7B0A8AFF55A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PUMBAUITests/Pods-PUMBAUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB813FF9734E6373FBE2A4FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PUMBAUITests/Pods-PUMBAUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1836E27D2062A64700FBC712 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1836E2872062A64700FBC712 /* ViewController.swift in Sources */,
+				18363968206FB0DD0047DBB8 /* menuViewController.swift in Sources */,
+				1836E2872062A64700FBC712 /* LoginViewController.swift in Sources */,
+				180AD6D120789A9A009BC949 /* displayNewsViewController.swift in Sources */,
+				180AD6D42078DC29009BC949 /* randomNewsViewController.swift in Sources */,
+				1850C0862066061900C892BA /* navigateViewController.swift in Sources */,
 				1836E2852062A64700FBC712 /* AppDelegate.swift in Sources */,
+				1850C084206603B600C892BA /* constantsHere.swift in Sources */,
+				1836E2B32062D42100FBC712 /* randomTableViewCell.swift in Sources */,
+				18363966206F77DA0047DBB8 /* slideControllersViewController.swift in Sources */,
+				180AD6CE20788FE7009BC949 /* SportsNewsViewController.swift in Sources */,
+				1850C0882066E6DE00C892BA /* newsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +625,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +633,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +684,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +692,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -424,14 +724,18 @@
 		};
 		1836E2AA2062A64700FBC712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEF6B16B022DDD75C81798C /* Pods-PUMBA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KHNRFZ852H;
 				INFOPLIST_FILE = PUMBA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sonkar.PUMBA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PUMBA/PUMBA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +743,17 @@
 		};
 		1836E2AB2062A64700FBC712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21AB389436818475C6D930A3 /* Pods-PUMBA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KHNRFZ852H;
 				INFOPLIST_FILE = PUMBA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sonkar.PUMBA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PUMBA/PUMBA-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +761,7 @@
 		};
 		1836E2AD2062A64700FBC712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4168E1EFEDF8206D3036406D /* Pods-PUMBATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +779,7 @@
 		};
 		1836E2AE2062A64700FBC712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CF416A4ED711D05C413BD2 /* Pods-PUMBATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +797,7 @@
 		};
 		1836E2B02062A64700FBC712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9B5E2BA9BF3FF903875696 /* Pods-PUMBAUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +814,7 @@
 		};
 		1836E2B12062A64700FBC712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9A734AD04324EDC0EBBAF4 /* Pods-PUMBAUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

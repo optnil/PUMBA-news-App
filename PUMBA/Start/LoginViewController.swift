@@ -39,8 +39,8 @@ class LoginViewController: UIViewController {
                             self.displayAlert(title: "Error", message: error!.localizedDescription)
                         }
                         else{
-                             self.displayAlert(title: "Success", message: "Login Successful")
-                           // self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                             //self.displayAlert(title: "Success", message: "Login Successful")
+                             self.performSegue(withIdentifier: "loginSegue", sender: nil)
                         }
                     })
                     

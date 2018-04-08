@@ -33,10 +33,11 @@ class randomTableViewCell: UITableViewCell {
         container.layer.masksToBounds = false
         container.layer.cornerRadius = 15
         
-        newsImage.backgroundColor = UIColor.red
+        //newsImage.backgroundColor = UIColor.red
         newsImage.layer.cornerRadius = 15
+        newsImage.clipsToBounds = true
         
-        titleLabel.backgroundColor = UIColor.green
+        titleLabel.backgroundColor = UIColor.white
         titleLabel.numberOfLines = 0
 
     }
