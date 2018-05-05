@@ -26,6 +26,7 @@ PODS:
     - leveldb-library (~> 1.18)
   - FirebaseInstanceID (2.0.8):
     - FirebaseCore (~> 4.0)
+  - Floaty (4.0.0)
   - GoogleToolboxForMac/DebugUtils (2.1.3):
     - GoogleToolboxForMac/Defines (= 2.1.3)
   - GoogleToolboxForMac/Defines (2.1.3)
@@ -55,6 +56,7 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
+  - Floaty
   - SDWebImage (~> 4.0)
   - Tabman
 
@@ -66,6 +68,7 @@ SPEC CHECKSUMS:
   FirebaseCore: 2e0b98fb2d64ca8140136beff15772bdd14d2dd7
   FirebaseDatabase: de4446507ccd3257fca37d16f40e1540324571fd
   FirebaseInstanceID: 81df5805a08001e69138664bdd02c6719a9ac80f
+  Floaty: 4f88811bbf08521807f42355db6a9c0db85d5d78
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
   GTMSessionFetcher: 5bb1eae636127de695590f50e7d248483eb891e6
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
@@ -74,6 +77,6 @@ SPEC CHECKSUMS:
   SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
   Tabman: 9073d30c756e1112cc26374217229d7c22226a96
 
-PODFILE CHECKSUM: 9fc1f2cbadd73c01b12a3cb6a6a6b24f56e62a2f
+PODFILE CHECKSUM: e759ff901722d5f745e83bc7c93e9d2870e4931a
 
 COCOAPODS: 1.4.0

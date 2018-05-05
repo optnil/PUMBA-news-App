@@ -15,6 +15,10 @@ class randomNewsViewController: UIViewController, UITableViewDataSource, UITable
     @IBOutlet weak var newsTable: UITableView!
     var dictArray : [Dictionary<String , AnyObject>] = []
     var selectedNews : [String: AnyObject] = ["nalla":"nallu" as AnyObject]
+    var cacheImage = NSCache<AnyObject, AnyObject>()
+    var urlString : String?
+    var image : UIImage?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +30,12 @@ class randomNewsViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        if dictArray.count > 20{
+            return 20
+        }
         return dictArray.count
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
@@ -43,9 +52,11 @@ class randomNewsViewController: UIViewController, UITableViewDataSource, UITable
         
         if let url = (news["mNewsImageUrl1"] as? String){
             let getUrl = URL(string: url)
+            urlString = url
+            //fetchImage(url: url)
             cell.newsImage.sd_setImage(with: getUrl, completed: nil)
         }
-        
+        cell.newsImage.image = image
         return cell
         
     }
@@ -74,7 +85,7 @@ class randomNewsViewController: UIViewController, UITableViewDataSource, UITable
         
         selectedNews = dictArray[indexPath.row]
         performSegue(withIdentifier: "randomNewsSegue", sender: nil)
-        //print(selectedNews)
+        print(selectedNews)
     }
     
     
@@ -86,6 +97,33 @@ class randomNewsViewController: UIViewController, UITableViewDataSource, UITable
             viewNewsVC.news = selectedNews
         }
         
+    }
+    
+    func fetchImage(url: String) -> Void {
+        if let imagefromCache = cacheImage.object(forKey: url as AnyObject) as? UIImage{
+            self.image = imagefromCache
+            return
+        }
+    
+        let getUrl = URL(string: url)
+        URLSession.shared.dataTask(with: getUrl!) { (data, response, error) in
+            
+            if error != nil{
+                print(error)
+                return
+            }
+            
+            DispatchQueue.main.async {
+                let imageToCache = UIImage(data: data!)
+                
+                if self.urlString == url {
+                    self.image = imageToCache
+                }
+                self.cacheImage.setObject(imageToCache!, forKey: self.urlString as AnyObject)
+                
+            }
+            self.newsTable.reloadData()
+        }.resume()
     }
     
 }

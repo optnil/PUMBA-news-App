@@ -513,15 +513,15 @@
             </objects>
             <point key="canvasLocation" x="993" y="1015"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu Container View Controller-->
         <scene sceneID="Gdc-Hf-scs">
             <objects>
-                <viewController id="tIC-Yy-Npa" sceneMemberID="viewController">
+                <viewController id="tIC-Yy-Npa" customClass="MenuContainerViewController" customModule="PUMBA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="axo-mg-BSb">
                         <rect key="frame" x="0.0" y="0.0" width="250" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slidemenupic" translatesAutoresizingMaskIntoConstraints="NO" id="H6L-EB-ZNr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginbg2-1" translatesAutoresizingMaskIntoConstraints="NO" id="H6L-EB-ZNr">
                                 <rect key="frame" x="0.0" y="8" width="250" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="vIM-1B-mNv"/>
@@ -532,7 +532,7 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="sectionIndexBackgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="50" id="83v-cI-sYA">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="50" id="83v-cI-sYA" customClass="MenuTabTableViewCell" customModule="PUMBA" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.5" width="250" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="83v-cI-sYA" id="xZ1-BF-4uF">
@@ -547,7 +547,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eg3-Qz-qBJ">
-                                                    <rect key="frame" x="56" y="10" width="42" height="29"/>
+                                                    <rect key="frame" x="56" y="10" width="179" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="29" id="dy9-tV-wEn"/>
                                                     </constraints>
@@ -558,12 +558,16 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="eg3-Qz-qBJ" firstAttribute="top" secondItem="xZ1-BF-4uF" secondAttribute="top" constant="10" id="2jL-He-tKg"/>
+                                                <constraint firstAttribute="trailing" secondItem="eg3-Qz-qBJ" secondAttribute="trailing" constant="15" id="8N6-Co-lDN"/>
                                                 <constraint firstItem="TGX-gt-J3o" firstAttribute="leading" secondItem="xZ1-BF-4uF" secondAttribute="leadingMargin" constant="5" id="UyN-uB-x2w"/>
                                                 <constraint firstItem="TGX-gt-J3o" firstAttribute="top" secondItem="xZ1-BF-4uF" secondAttribute="topMargin" id="Xlg-VJ-box"/>
                                                 <constraint firstItem="eg3-Qz-qBJ" firstAttribute="leading" secondItem="TGX-gt-J3o" secondAttribute="trailing" constant="8" id="Zbn-1r-6e1"/>
-                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eg3-Qz-qBJ" secondAttribute="trailing" constant="20" symbolic="YES" id="pam-3c-52X"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="iconImage" destination="TGX-gt-J3o" id="VPj-BR-9EP"/>
+                                            <outlet property="titleLabel" destination="eg3-Qz-qBJ" id="dPp-7u-iyk"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -580,10 +584,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NPh-KT-KLU"/>
                     </view>
+                    <connections>
+                        <outlet property="menuTable" destination="hFv-9l-S9w" id="shw-LY-vcZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cwj-Ud-7ZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3285" y="161"/>
+            <point key="canvasLocation" x="3284.8000000000002" y="160.56971514242881"/>
         </scene>
         <!--Display News View Controller-->
         <scene sceneID="hBB-Ze-cZS">
@@ -723,8 +730,8 @@
     </scenes>
     <resources>
         <image name="loginbg2" width="375" height="667"/>
+        <image name="loginbg2-1" width="338" height="178"/>
         <image name="slide" width="28" height="28"/>
-        <image name="slidemenupic" width="626" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="iUR-Jb-yko"/>

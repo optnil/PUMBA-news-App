@@ -32,7 +32,7 @@ class randomTableViewCell: UITableViewCell {
         container.layer.shadowRadius = 5
         container.layer.masksToBounds = false
         container.layer.cornerRadius = 15
-        
+
         //newsImage.backgroundColor = UIColor.red
         newsImage.layer.cornerRadius = 15
         newsImage.clipsToBounds = true

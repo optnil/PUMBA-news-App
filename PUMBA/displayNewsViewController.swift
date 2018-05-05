@@ -9,8 +9,9 @@
 import UIKit
 import FirebaseDatabase
 import SDWebImage
+import Floaty
 
-class displayNewsViewController: UIViewController {
+class displayNewsViewController: UIViewController, FloatyDelegate {
 
     @IBOutlet weak var newsImage: UIImageView!
     @IBOutlet weak var newsDiscription: UITextView!
@@ -23,6 +24,7 @@ class displayNewsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         displayNews()
+        layoutFab()
     }
     
     func displayNews(){
@@ -66,4 +68,33 @@ class displayNewsViewController: UIViewController {
         }
     }
     
-}
+    func layoutFab(){
+        
+        let fab = Floaty()
+//        let item = FloatyItem()
+//        item.buttonColor = UIColor.red
+//        item.iconTintColor = UIColor.red
+//        item.titleColor = UIColor.black
+//        item.title = "Like"
+        
+        //let item2 = FloatyItem()
+        
+        fab.addItem("Like", icon: #imageLiteral(resourceName: "like")) { item in
+            print("like pressed")
+        }
+        fab.addItem("Share", icon: #imageLiteral(resourceName: "shareIcon")) { item in
+            self.share()
+        }
+        fab.fabDelegate = self as FloatyDelegate
+        self.view.addSubview(fab)
+        }
+    func share() {
+        let activityVC = UIActivityViewController(activityItems: ["I'm sharing this"], applicationActivities: nil)
+        
+        self.present(activityVC, animated: true, completion: nil)
+    }
+    }
+
+
+    
+

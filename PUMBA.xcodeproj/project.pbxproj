@@ -10,6 +10,8 @@
 		180AD6CE20788FE7009BC949 /* SportsNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD6CD20788FE7009BC949 /* SportsNewsViewController.swift */; };
 		180AD6D120789A9A009BC949 /* displayNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD6D020789A9A009BC949 /* displayNewsViewController.swift */; };
 		180AD6D42078DC29009BC949 /* randomNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD6D32078DC29009BC949 /* randomNewsViewController.swift */; };
+		182E04FE209E3D0B00E377FD /* MenuContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E04FD209E3D0B00E377FD /* MenuContainerViewController.swift */; };
+		182E0500209E3F6600E377FD /* MenuTabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E04FF209E3F6600E377FD /* MenuTabTableViewCell.swift */; };
 		18363966206F77DA0047DBB8 /* slideControllersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18363965206F77DA0047DBB8 /* slideControllersViewController.swift */; };
 		18363968206FB0DD0047DBB8 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18363967206FB0DD0047DBB8 /* menuViewController.swift */; };
 		1836E2852062A64700FBC712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836E2842062A64700FBC712 /* AppDelegate.swift */; };
@@ -51,6 +53,8 @@
 		180AD6D020789A9A009BC949 /* displayNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayNewsViewController.swift; sourceTree = "<group>"; };
 		180AD6D32078DC29009BC949 /* randomNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomNewsViewController.swift; sourceTree = "<group>"; };
 		180AD6D52078E81D009BC949 /* PUMBA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PUMBA-Bridging-Header.h"; sourceTree = "<group>"; };
+		182E04FD209E3D0B00E377FD /* MenuContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContainerViewController.swift; sourceTree = "<group>"; };
+		182E04FF209E3F6600E377FD /* MenuTabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabTableViewCell.swift; sourceTree = "<group>"; };
 		18363965206F77DA0047DBB8 /* slideControllersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideControllersViewController.swift; sourceTree = "<group>"; };
 		18363967206FB0DD0047DBB8 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		1836E2812062A64700FBC712 /* PUMBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUMBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +188,8 @@
 				18E6DA39207549480010F5EF /* GoogleService-Info.plist */,
 				180AD6D020789A9A009BC949 /* displayNewsViewController.swift */,
 				180AD6D52078E81D009BC949 /* PUMBA-Bridging-Header.h */,
+				182E04FD209E3D0B00E377FD /* MenuContainerViewController.swift */,
+				182E04FF209E3F6600E377FD /* MenuTabTableViewCell.swift */,
 			);
 			path = PUMBA;
 			sourceTree = "<group>";
@@ -386,6 +392,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PUMBA/Pods-PUMBA-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AutoInsetter/AutoInsetter.framework",
+				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework",
@@ -397,6 +404,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoInsetter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pageboy.framework",
@@ -546,6 +554,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182E0500209E3F6600E377FD /* MenuTabTableViewCell.swift in Sources */,
 				18363968206FB0DD0047DBB8 /* menuViewController.swift in Sources */,
 				1836E2872062A64700FBC712 /* LoginViewController.swift in Sources */,
 				180AD6D120789A9A009BC949 /* displayNewsViewController.swift in Sources */,
@@ -555,6 +564,7 @@
 				1850C084206603B600C892BA /* constantsHere.swift in Sources */,
 				1836E2B32062D42100FBC712 /* randomTableViewCell.swift in Sources */,
 				18363966206F77DA0047DBB8 /* slideControllersViewController.swift in Sources */,
+				182E04FE209E3D0B00E377FD /* MenuContainerViewController.swift in Sources */,
 				180AD6CE20788FE7009BC949 /* SportsNewsViewController.swift in Sources */,
 				1850C0882066E6DE00C892BA /* newsViewController.swift in Sources */,
 			);

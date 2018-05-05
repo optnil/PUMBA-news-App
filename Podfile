@@ -9,6 +9,7 @@ target 'PUMBA' do
 	pod 'Firebase/Database'
 	pod 'Tabman'
 	pod 'SDWebImage', '~> 4.0'
+	pod "Floaty"
   use_frameworks!
 
   # Pods for PUMBA
